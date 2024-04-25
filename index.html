@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bethesda Game Studios</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .container {
+            margin: 20px;
+        }
+        .game {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .game img {
+            width: 200px;
+            height: auto;
+        }
+        .game .details {
+            margin-left: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            margin-top: 20px;
+        }
+        form h2 {
+            margin-bottom: 10px;
+        }
+        form input, form textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#">Home</a>
+        <a href="#">Games History</a>
+        <a href="#">Contact</a>
+    </header>
+    <div class="container">
+        <div class="game">
+            <img src="path/to/game1.jpg" alt="Game 1">
+            <div class="details">
+                <h2>Game 1</h2>
+                <p>Description of Game 1.</p>
+            </div>
+        </div>
+        <!-- Add more games as needed -->
+    </div>
+    <footer>
+        &copy; 2024 Bethesda Game Studios. All rights reserved.
+    </footer>
+    <form>
+        <h2>Contact Us</h2>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
